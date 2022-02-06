@@ -1,8 +1,6 @@
 /* Global Styles */
 
 * {
-	margin: 0;
-	padding: 0;
 	opacity: 0.9;
 }
 
@@ -12,64 +10,69 @@ body {
 	color: seashell;
 	background-color: black;
 	text-align: center;
+	margin: 0;
 }
 
 /* Header */
 
-header {
+.header {
 	width: 100%;
 	height: 69px;
-	border-bottom: 1px solid seashell;
+	display: block;
 	position: fixed;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	top: 0px;
+	border-bottom: 1px solid seashell;
 	z-index: 10;
+	background-color: black;
 }
 
-header img {
-	margin-left: 10px;
+.logo {
 	height: 50px;
-	width: auto;
+	float:  left;
+	padding: 9.5px 0 9.5px 10px;
 }
 
-#navigation {
-	margin-left: auto;
+.navigation {
+	float: right;
+	height: 100%;
+	margin: 0 auto;
 }
 
-#navigation ul {
-	list-style: none;
+.navigation a {
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
 }
 
-#navigation li {
-	padding: 10px;
-	display: inline;
+.navigation a li {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
 	text-decoration: underline;
+	color: seashell;
 }
 
 /* Our Mission */
 
-#our-mission {
-	position: relative;
-	margin: auto;
-	top: 69px;
-	height: 700px;
-	width: 1200px;
-	z-index: 5;
+.mission-container {
 	background-image: urL("media/img-mission-background.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	max-width: 1200px;
+	margin: 69px auto;
+	display: flex;
+	z-index: 5;
 }
 
-#our-mission div {
+.text-over {
+	margin: auto;
 	background-color: black;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%)
+	width: 100%;
 }
 
-#our-mission div h2 {
-	padding:  10px;
-}
-
-#our-mission div h4 {
-	padding-bottom: 10px;
+.text-over h2, .text-over h4 {
+	padding: 10px;
+	margin: 0;
 }
