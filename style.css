@@ -76,3 +76,28 @@ body {
 	padding: 10px;
 	margin: 0;
 }
+
+/* Tea of the Month */
+
+.featured-tea {
+	font-weight: bold;
+}
+
+.image-container {
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.image-container figure {
+	margin: 0;
+	padding: 30px 15px 10px 15px;
+}
+
+.image-container img {
+	height: 200px;
+	width: 300px;
+	padding-bottom: 10px;
+}
