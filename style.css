@@ -101,3 +101,54 @@ body {
 	width: 300px;
 	padding-bottom: 10px;
 }
+
+/* Locations */
+
+.banner {
+	height: 500px;
+	max-width: 1200px;
+	margin: 80px auto auto auto;
+	padding-top: 140px;
+	background-image: url("media/img-locations-background.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.box-container {
+	max-width: 1050px;
+	margin: 15px auto auto auto;
+	display: flex;
+	justify-content: space-between;
+	opacity: 1;
+}
+
+.box {
+	height: 300px;
+	padding: 20px;
+	margin-bottom: auto;
+	flex-basis: 30%;
+	box-sizing: border-box;
+	background-color: black;
+	opacity: 1;
+}
+
+/* Contact */
+
+.contact {
+	height: 200px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Footer */
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+}
